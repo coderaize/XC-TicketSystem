@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TicketDSet" targetNamespace="http://tempuri.org/TicketDSet.xsd" xmlns:mstns="http://tempuri.org/TicketDSet.xsd" xmlns="http://tempuri.org/TicketDSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TicketDSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TicketDSet" msprop:Generator_UserDSName="TicketDSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rptTickets" msprop:Generator_TableClassName="rptTicketsDataTable" msprop:Generator_TableVarName="tablerptTickets" msprop:Generator_RowChangedName="rptTicketsRowChanged" msprop:Generator_TablePropName="rptTickets" msprop:Generator_RowDeletingName="rptTicketsRowDeleting" msprop:Generator_RowChangingName="rptTicketsRowChanging" msprop:Generator_RowEvHandlerName="rptTicketsRowChangeEventHandler" msprop:Generator_RowDeletedName="rptTicketsRowDeleted" msprop:Generator_RowClassName="rptTicketsRow" msprop:Generator_UserTableName="rptTickets" msprop:Generator_RowEvArgName="rptTicketsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="RaisedBy" msprop:Generator_ColumnVarNameInTable="columnRaisedBy" msprop:Generator_ColumnPropNameInRow="RaisedBy" msprop:Generator_ColumnPropNameInTable="RaisedByColumn" msprop:Generator_UserColumnName="RaisedBy" type="xs:string" minOccurs="0" />
+              <xs:element name="CreationTime" msprop:Generator_ColumnVarNameInTable="columnCreationTime" msprop:Generator_ColumnPropNameInRow="CreationTime" msprop:Generator_ColumnPropNameInTable="CreationTimeColumn" msprop:Generator_UserColumnName="CreationTime" type="xs:string" minOccurs="0" />
+              <xs:element name="Priority" msprop:Generator_ColumnVarNameInTable="columnPriority" msprop:Generator_ColumnPropNameInRow="Priority" msprop:Generator_ColumnPropNameInTable="PriorityColumn" msprop:Generator_UserColumnName="Priority" type="xs:string" minOccurs="0" />
+              <xs:element name="Urgency" msprop:Generator_ColumnVarNameInTable="columnUrgency" msprop:Generator_ColumnPropNameInRow="Urgency" msprop:Generator_ColumnPropNameInTable="UrgencyColumn" msprop:Generator_UserColumnName="Urgency" type="xs:string" minOccurs="0" />
+              <xs:element name="Subject" msprop:Generator_ColumnVarNameInTable="columnSubject" msprop:Generator_ColumnPropNameInRow="Subject" msprop:Generator_ColumnPropNameInTable="SubjectColumn" msprop:Generator_UserColumnName="Subject" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="ClosingTime" msprop:Generator_ColumnVarNameInTable="columnClosingTime" msprop:Generator_ColumnPropNameInRow="ClosingTime" msprop:Generator_ColumnPropNameInTable="ClosingTimeColumn" msprop:Generator_UserColumnName="ClosingTime" type="xs:string" minOccurs="0" />
+              <xs:element name="ClosingReason" msprop:Generator_ColumnVarNameInTable="columnClosingReason" msprop:Generator_ColumnPropNameInRow="ClosingReason" msprop:Generator_ColumnPropNameInTable="ClosingReasonColumn" msprop:Generator_UserColumnName="ClosingReason" type="xs:string" minOccurs="0" />
+              <xs:element name="ClosedBy" msprop:Generator_ColumnVarNameInTable="columnClosedBy" msprop:Generator_ColumnPropNameInRow="ClosedBy" msprop:Generator_ColumnPropNameInTable="ClosedByColumn" msprop:Generator_UserColumnName="ClosedBy" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
