@@ -1717,18 +1717,6 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="SignUp.aspx" />
     <Content Include="SqlServerTypes\readme.htm" />
-    <Content Include="SqlServerTypes\x64\msvcr120.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SqlServerTypes\x86\msvcr120.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="TicketView.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -2067,7 +2055,6 @@
     <Content Include="assets\vendor\jquery-idletimer\CHANGELOG.md" />
     <Content Include="assets\vendor\jquery-idletimer\CONTRIBUTING.md" />
     <Content Include="assets\vendor\jquery-idletimer\idle-timer.jquery.json" />
-    <Content Include="assets\vendor\jquery-idletimer\jquery-idletimer.v12.suo" />
     <Content Include="assets\vendor\jquery-idletimer\LICENSE-MIT" />
     <Content Include="assets\vendor\jquery-idletimer\package.json" />
     <Content Include="assets\vendor\jquery-idletimer\README.md" />
